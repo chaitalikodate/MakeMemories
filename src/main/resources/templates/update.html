@@ -95,9 +95,9 @@
         <form action="/update" method="post" enctype="multipart/form-data">
             <input type="hidden" name="id" th:value="${image.id}">
             <input type="hidden" name="userId" th:value="${userId}">
-            <!--  <div class="input-group mb-3">
+             <div class="input-group mb-3">
                 <input type="file" class="form-control" required="required" id="image" name="image" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
-            </div> --> 
+            </div>  
             <div class="mb-3">
                 <label for="note" class="form-label">Description</label>
                 <textarea class="form-control" id="note" name="note" rows="3" maxlength="250" th:text="${image.note}"></textarea>
