@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+
+.welcome-card{
+	background-color: white;
+}
+body {
+	background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input {
+    width: calc(100% - 120px);
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error-message, .success-message {
+    margin-bottom: 15px;
+    color: red;
+    text-align: center;
+}
+h1{
+	font-family: Pacifico, cursive;
+}
+.form-group{
+	font-family: Copperplate,Geneva, Verdana, sans-serif;
+}

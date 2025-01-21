@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+
+ body{
+    background-color: #1c2833;
+    font-family: Arial, sans-serif;
+	}
+ .custom-heading {
+         	
+            font-family:   Copperplate, Geneva, Verdana, sans-serif; /* Change to desired font-family */
+            font-size: 3em; /* Adjust size as needed */
+            color: black; /* Text color */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for effect */
+            margin-top: 20px; /* Adjust top margin */
+            margin-bottom: 30px;
+  }
+       
+
+.custom-heading {
+    color: #333;
+   
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn-outline-secondary {
+    border-color: #dc2743;
+    color: #dc2743;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #dc2743;
+    color: #ffffff;
+}
+.navbar-brand{
+	font-family:Pacifico, Copperplate, fantasy,Geneva, Verdana, sans-serif; /* Change to desired font-family */
+            font-size: 2em; /* Adjust size as needed */
+            color: black; /* Text color */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for effect */
+           
+}
+.container-fluid{
+	align-items: flex-start;
+}
